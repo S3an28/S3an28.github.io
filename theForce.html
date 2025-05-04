@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Use The Force!</title>
+  <meta name="author" content="Sean K!!!" />
+  <meta name="keywords" content="Star Wars, 1 Hour Website Build with Sean K, Alliance, Jedi, HTML, CSS" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: "Franklin Gothic Medium", Arial, sans-serif;
+      background-color: #dcf0f5;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .left {
+      width: 50%;
+      background-color: #dcf0f5;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      gap: 20px;
+      overflow-y: auto;
+    }
+
+    .left input {
+      padding: 15px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    .right {
+      width: 50%;
+      background: url('media/seanYoda.jpg') no-repeat center center;
+      background-size: cover;
+    }
+
+    nav {
+      margin-bottom: 20px;
+    }
+
+    nav a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #333;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #dcf0f5;
+      color: rgb(0, 0, 0);
+      font-size: 14px;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .left, .right {
+        width: 100%;
+        height: 50vh;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="left">
+
+    <nav>
+      <a href="index.html">Home</a>
+        </nav>
+
+    <h1>May The Force Be With You!</h1>
+
+    <p>
+      The battle of good and evil rages on! The Empire's fleet is vast. But the Alliance is closer than ever to bringing the tyrannical reign of the Emperor and Darth Vader to a long-awaited end.
+    </p>
+
+    <p>
+      You have one hour to build a three-page website that will help aid the Alliance in some way. What does the Alliance need? How can your website help restore order to the galaxy? Use the links provided to help you achieve this mission. <em>You are our only hope!</em>
+    </p>
+
+    <h2><u>Mission Objectives:</u></h2>
+
+    <h3>Index Page:</h3>
+    <strong>Your HEAD element should include:</strong>
+    <ul>
+      <li>Text Encoding</li>
+      <li>Page Title</li>
+      <li>Author</li>
+      <li>5 Keywords</li>
+    </ul>
+
+    <strong>Your Page should include:</strong>
+    <ul>
+      <li>Nav Tags/Buttons</li>
+      <li>Background Image to match theme</li>
+      <li>3-Paragraphs (Copied OK)</li>
+      <li>3-Images to match theme</li>
+      <li>Footer with your name and Copyright</li>
+    </ul>
+
+    <h3>About Page:</h3>
+    <strong>Your HEAD element should reflect your About Page.</strong>
+    <ul>
+      <li>Nav Tags/Buttons</li>
+      <li>Background Image to match theme</li>
+      <li>YouTube video to match theme - centered</li>
+      <li>3-Paragraphs (Copied OK)</li>
+      <li>Footer with your name and Copyright</li>
+    </ul>
+
+    <h3>Contact Page:</h3>
+    <strong>Your HEAD element should reflect your Contact Page.</strong>
+    <ul>
+      <li>Nav Tags/Buttons</li>
+      <li>Background Image to match theme</li>
+      <li>Contact Form: First/Last Name, Email Address</li>
+      <li>3-Paragraphs (Copied OK)</li>
+      <li>Footer with your name and Copyright</li>
+    </ul>
+
+    <h3>Helpful Links:</h3>
+    <ul>
+      <li><a href="https://www.w3schools.com/html/html_basic.asp">W3Schools HTML</a></li>
+      <li><a href="https://community.codecademy.com/c/full-stack-engineer-journey-study-group/the-dreaded-head-element-html">Head Element Tips</a></li>
+      <li><a href="https://www.w3schools.com/tags/tag_nav.asp">W3Schools Nav Tags</a></li>
+      <li><a href="https://www.w3schools.com/html/html_forms.asp">W3Schools Forms</a></li>
+      <li><a href="https://www.youtube.com/">YouTube</a></li>
+    </ul>
+
+  </div>
+  <div class="right"></div>
+</div>
+
+<footer>
+  &copy; Sean K!!! 2025 All rights reserved.
+</footer>
+
+</body>
+</html>
